@@ -13,15 +13,15 @@ if(err){
 //     return console.log('unable to insert todo');
 // }console.log(JSON.stringify(result.ops,undefined,2));
 // });
-db.collection('Users').insertOne({
-    name:'Suresh Goud',
-    age: 25,
-    location: 'Podichedu'
-},(err,result)=>{
-if(err){
-    return console.log('unable to insert todo');
-}console.log(result.ops);
-});
+// db.collection('Users').insertOne({
+//     name:'Suresh Goud',
+//     age: 25,
+//     location: 'Podichedu'
+// },(err,result)=>{
+// if(err){
+//     return console.log('unable to insert todo');
+// }console.log(result.ops);
+// });
 
-db.close();
+// db.close();
 });
